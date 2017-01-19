@@ -1,0 +1,35 @@
+html {
+    font-family: sans-serif;
+    background: forestgreen;
+}
+
+.inbox {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F1F1F1;
+}
+
+.item:last-child {
+    border-bottom: 0;
+}
+
+input:checked + label {
+    background: orangered;
+    text-decoration: line-through;
+}
+
+input[type="checkbox"] {
+    margin: 20px;
+}
+
+.details {
+    text-align: center;
+    font-size: 15px;
+}
